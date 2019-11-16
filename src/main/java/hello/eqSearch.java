@@ -1,6 +1,6 @@
 package hello;
 
-public class EqSearch{
+public class eqSearch{
 	private int distance;
 	private int minmag;
 
