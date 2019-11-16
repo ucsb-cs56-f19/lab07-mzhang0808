@@ -46,7 +46,19 @@ public class WebController {
 
     @GetMapping("/page2")
     public String getPage2(Model model, OAuth2AuthenticationToken oAuth2AuthenticationToken) {
-
         return "page2";
+    }
+
+    @GetMapping("/earthquakes/search")
+    public String getEarthquakesSearch(Model model, OAuth2AuthenticationToken oAuth2AuthenticationToken,
+            EqSearch eqSearch) {
+	    return "earthquakes/search";
+    }
+
+    @GetMapping("/earthquakes/results")
+    public String getEarthquakesResults(Model model, OAuth2AuthenticationToken oAuth2AuthenticationToken,
+		                EqSearch eqSearch) {
+	    model.addAttribute("eqSearch", eqSearch);
+	    return "earthquakes/search";	   
     }
 }
