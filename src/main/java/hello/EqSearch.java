@@ -1,13 +1,10 @@
 package hello;
 
-public class eqSearch{
+public class EqSearch{
 	private int distance;
 	private int minmag;
 
-	public EqSearch(){
-		distance = 0;
-		minmag = 0;
-	}
+	public EqSearch(){}
 	public void setDistance(int d){
 		distance = d;
 	}
