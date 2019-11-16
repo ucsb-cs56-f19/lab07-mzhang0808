@@ -46,7 +46,6 @@ public class WebController {
 
     @GetMapping("/page2")
     public String getPage2(Model model, OAuth2AuthenticationToken oAuth2AuthenticationToken) {
-
         return "page2";
     }
 
