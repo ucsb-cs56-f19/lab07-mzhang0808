@@ -8,7 +8,4 @@ public class Metadata {
 	public String api;
 	public int count;
 
-	public Metadata metadata;
-
-
 }
