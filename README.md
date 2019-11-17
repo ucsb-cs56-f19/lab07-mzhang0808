@@ -1,4 +1,4 @@
-Repo: https://cs56-f19-lab07-mzhang0808.herokuapp.com/
+Repo: https://github.com/ucsb-cs56-f19/lab07-mzhang0808
 
 Website: https://ucsb-cs56-f19.github.io/lab07-mzhang0808/
 
